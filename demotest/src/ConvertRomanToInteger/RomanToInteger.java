@@ -22,7 +22,7 @@ public class RomanToInteger {
                 result += map.get(s.CharAt(i));
             }
         }
-
+        return result;
     }
-    return result;
+
 }
